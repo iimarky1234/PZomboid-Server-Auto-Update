@@ -50,7 +50,7 @@ startserver_path="""C:/Users/Testing/Downloads/steamcmd/steamapps/common/PZserve
 ```
 2. For Linux:
 ```python
-    startserver_path="/opt/pzserver/'Project Zomboid Dedicated Server'/start_server.sh" # Location of start_server.sh (Change base on your system)
+startserver_path="/opt/pzserver/'Project Zomboid Dedicated Server'/start_server.sh" # Location of start_server.sh (Change base on your system)
 ```
 
 To run the script: 
