@@ -56,7 +56,7 @@ LOOP_TIME: 20
 ```
 
 
-###To run the script: 
+### To run the script: 
 Linux:
 ```sh
 source bin/activate
@@ -64,12 +64,12 @@ source bin/activate
 ```python
 python auto_reset.py
 ```
-Windows
+Windows:
 ```
 bin/activate
 ```
 ```python
-python auto_reset.py
+py auto_reset.py
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,7 +80,7 @@ python auto_reset.py
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Rcon.js]: https://img.shields.io/badge/RCON--CLI-blue
-[Rcon-url]: https://github.com/gorcon/rcon-cli
+[Rcon.js]: https://img.shields.io/badge/RCON--python-blue
+[Rcon-url]: https://github.com/conqp/rcon
 [Python.js]: https://img.shields.io/badge/PYTHON-yellow?logo=python
 [Python-url]: https://www.python.org/
