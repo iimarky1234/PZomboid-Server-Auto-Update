@@ -1,0 +1,17 @@
+# <Your location>/Zomboid/Logs
+SERVER_LOG: "C:/Users/Testing/Zomboid/Logs"
+
+# Use local IP example: 127.0.0.1
+SERVER_IP: "127.0.0.1"
+
+# Check in servertest.ini for the RCONPort
+RCON_PORT: 27015
+
+# Check in servertest.ini for the RCONPassword
+RCON_PASSWORD: "123456789"
+
+# Amount of time before restarting server. IN SECONDS !!
+TIME_BEFORE_RESTART: 10
+
+# time loop of the update. IN SECONDS !! Recommend 10 minutes = 600 seconds
+LOOP_TIME: 20
