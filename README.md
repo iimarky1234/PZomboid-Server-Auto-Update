@@ -33,7 +33,8 @@ This Project helps auto restart the Project Zomboid Server, whenever finds a new
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Change the config base on your system:
+### Change the config base on your system: 
+`config.yaml`
 #### Example:
 ```yaml
 # <Your location>/Zomboid/Logs
