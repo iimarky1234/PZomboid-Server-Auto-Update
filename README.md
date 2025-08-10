@@ -33,30 +33,45 @@ This Project helps auto restart the Project Zomboid Server, whenever finds a new
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### Example
-  ```python
-PZserver_serverlog="C:/Users/Testing/Zomboid/Logs" # <Your location>/Zomboid/Logs
-server_ip="127.0.0.1" # Use local IP example: 127.0.0.1
-rcon_port="27015" # Check in servertest.ini for the RCONPort
-rcon_password="123456789" # Check in servertest.ini for the RCONPassword
-time=10 # Amount of time before restarting server. IN SECONDS !!
-loop_time=20 # time loop of the update. IN SECONDS !! Recommend 10 minutes = 600 seconds
-  ```
+### Change the config base on your system:
+#### Example:
+```yaml
+# <Your location>/Zomboid/Logs
+SERVER_LOG: "C:/Users/Testing/Zomboid/Logs"
 
-1. For Windows:
-```python
-rcon_path="C:/Users/Testing/Downloads/rcon-0.10.3-win64/rcon-0.10.3-win64/rcon.exe" # The location where rcon.exe located (Change base on your system)
-startserver_path="""C:/Users/Testing/Downloads/steamcmd/steamapps/common/PZserver/StartServer64.bat""" # Location of StartServer.bat (Change base on your system)
-```
-2. For Linux:
-```python
-startserver_path="/opt/pzserver/'Project Zomboid Dedicated Server'/start_server.sh" # Location of start_server.sh (Change base on your system)
+# Use local IP example: 127.0.0.1
+SERVER_IP: "127.0.0.1"
+
+# Check in servertest.ini for the RCONPort
+RCON_PORT: 27015
+
+# Check in servertest.ini for the RCONPassword
+RCON_PASSWORD: "123456789"
+
+# Amount of time before restarting server. IN SECONDS !!
+TIME_BEFORE_RESTART: 10
+
+# time loop of the update. IN SECONDS !! Recommend 10 minutes = 600 seconds
+LOOP_TIME: 20
 ```
 
-To run the script: 
+
+###To run the script: 
+Linux:
+```sh
+source bin/activate
+```
 ```python
 python auto_reset.py
 ```
+Windows
+```
+bin/activate
+```
+```python
+python auto_reset.py
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
